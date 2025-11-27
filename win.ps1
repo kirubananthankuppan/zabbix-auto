@@ -5,7 +5,7 @@
 
 $server = "10.2.0.8"
 $msi    = "C:\zabbix_agent2.msi"
-$url    = "https://cdn.zabbix.com/zabbix/binaries/stable/7.0/latest/zabbix_agent2-latest-windows-amd64-openssl.msi"
+$url    = "https://cdn.zabbix.com/zabbix/binaries/stable/latest/zabbix_agent2-latest-windows-amd64-openssl.msi"
 
 # Wait for network to come up
 Write-Output "Waiting for network..."
