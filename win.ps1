@@ -9,7 +9,7 @@ $ErrorActionPreference = "Stop"
 try { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 } catch {}
 
 # --- CONFIG ---
-$ZabbixServer   = "172.29.117.104"              # Your Zabbix Server IP
+$ZabbixServer   = "172.27.172.133"              # Your Zabbix Server IP
 $HostMetadata   = "windows"                     # For auto-registration rules
 $DeployRoot     = "C:\ZabbixDeploy"
 $LogFile        = Join-Path $DeployRoot "install_log.txt"
